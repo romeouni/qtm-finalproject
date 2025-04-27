@@ -1,7 +1,10 @@
 ---
 title: "Project Report"
-format: html
-toc: true
+format:
+     pdf:
+         toc: true
+     html:
+         toc: true
 ---
 
 # Introduction
