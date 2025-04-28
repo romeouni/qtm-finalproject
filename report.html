@@ -94,7 +94,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="data-description" class="level1">
 <h1>Data Description</h1>
-<p>We are looking at data for four of the biggest South American countries: Argentina, Brazil, Chile, and Venezuela. Our data contains the gross percentage of enrollment of each type of education in the 2000s per year. For some countries, there is some data missing from a few years. Whether it was reported or not, we will take this lack of data into consideration in our analysis. To analyze this data, we will create scatter plots showing the trends in gross enrollment for each country and compare them side by side.</p>
+<p>We are looking at data for four of the biggest South American countries: Argentina, Brazil, Chile, and Venezuela. Our data contains the gross percentage of enrollment of each type of education in the 2000s per year. To clean the data before SQL operations, the education series names were changed to primary, secondary, and tertiary for readability, and the CSV’s were melted and combined to seperate each data point into its own row for easier processing in one file. For each country and level of eduation, the count and range of years were pulled, as well as the minimum and maximum enrollment. For example, overall tertiary enrollment ranged between 27.98 for Venezuela in 2000 to 107.13 in Argentina in 2021, and for Chile specifically, primary enrollment ranged between 99.37 in 2021 to 106.87 in 2008.</p>
+<p>For some countries, there is data missing from a few years, with counts ranging between 6 years of data for Venezeula’s tertiary enrollment to 23 years of Argentinian data. Whether it was reported or not, we will take this lack of data into consideration in our analysis. To analyze this data, we will create scatter plots showing the trends in gross enrollment for each country and compare them side by side.</p>
 </section>
 <section id="data-analysis" class="level1">
 <h1>Data Analysis</h1>
