@@ -1,14 +1,14 @@
 import sqlite3
 import pandas as pd
 
-conn = sqlite3.connect(':memory:')
+conn = sqlite3.connect('edu_data.db')
 cursor = conn.cursor()
 
 # Read CSVs
-arg_df = pd.read_csv("data/ARG_edu_data.csv")
-bra_df = pd.read_csv("data/BRA_edu_data.csv")
-ven_df = pd.read_csv("data/VEN_edu_data.csv")
-chl_df = pd.read_csv("data/CHL_edu_data.csv")
+arg_df = pd.read_csv("../data/ARG_edu_data.csv")
+bra_df = pd.read_csv("../data/BRA_edu_data.csv")
+ven_df = pd.read_csv("../data/VEN_edu_data.csv")
+chl_df = pd.read_csv("../data/CHL_edu_data.csv")
 
 # Cleaning series names
 new_values = ["primary", "secondary", "tertiary"]
