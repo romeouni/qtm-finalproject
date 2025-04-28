@@ -5,6 +5,10 @@ format:
          toc: true
      html:
          toc: true
+author:
+    - name: Rahul Ulman, rulman
+    - name: Lucas Goldfein, lgoldfe
+    - name: Adam Pastor, 
 ---
 
 # Introduction
@@ -20,8 +24,6 @@ This analysis aims to identify overall trends, cross-country differences, and po
 We are looking at data for four of the biggest South American countries: Argentina, Brazil, Chile, and Venezuela. Our data contains the gross percentage of enrollment of each type of education in the 2000s per year. For some countries, there is some data missing from a few years. Whether it was reported or not, we will take this lack of data into consideration in our analysis. To analyze this data, we will create scatter plots showing the trends in gross enrollment for each country and compare them side by side.
 
 # Data Analysis
-
-# Results and Discussion
 
 ![Argentina Enrollment](figures/arg_enrollment.png)
 
@@ -51,8 +53,23 @@ In secondary enrollment, all four countries exhibit upward trends over the obser
 
 Though the data is less consistent for tertiary enrollment, there is a strong upward trend in Argentina, Chile, and Brazil, with Argentina and Chile showing the most significant increases. Brazil demonstrates steady growth, albeit at a slower pace, while Venezuela lags significantly behind the other three countries. These patterns suggest that while progress has been made in expanding access to tertiary education, disparities remain, particularly for Venezuela. The data underscores the need for targeted policies to address these gaps and promote equitable access to higher education across the region.
 
+# Results and Discussion
+
+Our analysis of gross enrollment rates from 2000 to 2022 across Argentina, Brazil, Chile, and Venezuela shows both regional progress and country-specific differences in educational development.
+
+Primary enrollment remained high and relatively stable in all four countries, suggesting near-universal access to basic education by the early 21st century. Secondary enrollment saw strong growth in Argentina, Chile, and Brazil — each surpassing 100% enrollment by 2022 — while Venezuela’s gains were more modest, highlighting persistent challenges in expanding post-primary education.
+
+Tertiary enrollment revealed the sharpest contrasts. Argentina and Chile nearly doubled their tertiary enrollment rates, reaching close to 100% by 2022, while Brazil showed steady but slower growth. Venezuela lagged behind significantly, suggesting deeper structural and political barriers to higher education access.
+
+While missing data for some years introduces minor uncertainty, the overall trends are clear. The findings highlight broad regional progress, especially in secondary and tertiary education, but also underline ongoing disparities. Argentina and Chile lead in educational expansion, Brazil follows with moderate growth, and Venezuela faces significant hurdles. Future research could investigate how economic and policy differences have influenced these trajectories.
+
 # Conclusion
 
 Our scatter plots show a couple of interesting trends. In all four countries, we see slight decreases in average gross enrollment for primary education but significant increases in average gross enrollment for secondary and tertiary education.
 
 These trends point to a clear conclusion: many more kids in South American countries are able to get higher education now than they did at the start of the millennia. There are numerous factors that could result in this, but South American countries have done a good job of developing policies to promote education and to make education accessible for kids. There has been a general and logically inferable increase in education all over the world, but this data highlights part of this increase in a particular location in the world: in this case South America.
+
+# Further Reading
+
+- wbgapi: https://pypi.org/project/wbgapi/
+- World Bank Data: https://data.worldbank.org/

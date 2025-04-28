@@ -7,4 +7,4 @@ Instructions for replicating our results:
 - Run the 00-data-collection.py file to collect the correct data.
 - Run the 01-SQL-summary-commands.py file to generate descriptive statistics for the data.
 - Run the code cells in 02-plots.ipynb to see and generate our graphs.
-- See the report to see our full analysis.
+- See the report to see our full analysis: https://romeouni.github.io/qtm-finalproject/report 
