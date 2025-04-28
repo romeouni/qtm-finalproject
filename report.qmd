@@ -17,6 +17,8 @@ This analysis aims to identify overall trends, cross-country differences, and po
 
 # Data Description
 
+We are looking at data for four of the biggest South American countries: Argentina, Brazil, Chile, and Venezuela. Our data contains the gross percentage of enrollment of each type of education in the 2000s per year. For some countries, there is some data missing from a few years. Whether it was reported or not, we will take this lack of data into consideration in our analysis. To analyze this data, we will create scatter plots showing the trends in gross enrollment for each country and compare them side by side.
+
 # Data Analysis
 
 # Results and Discussion
@@ -50,3 +52,7 @@ In secondary enrollment, all four countries exhibit upward trends over the obser
 Though the data is less consistent for tertiary enrollment, there is a strong upward trend in Argentina, Chile, and Brazil, with Argentina and Chile showing the most significant increases. Brazil demonstrates steady growth, albeit at a slower pace, while Venezuela lags significantly behind the other three countries. These patterns suggest that while progress has been made in expanding access to tertiary education, disparities remain, particularly for Venezuela. The data underscores the need for targeted policies to address these gaps and promote equitable access to higher education across the region.
 
 # Conclusion
+
+Our scatter plots show a couple of interesting trends. In all four countries, we see slight decreases in average gross enrollment for primary education but significant increases in average gross enrollment for secondary and tertiary education.
+
+These trends point to a clear conclusion: many more kids in South American countries are able to get higher education now than they did at the start of the millennia. There are numerous factors that could result in this, but South American countries have done a good job of developing policies to promote education and to make education accessible for kids. There has been a general and logically inferable increase in education all over the world, but this data highlights part of this increase in a particular location in the world: in this case South America.
